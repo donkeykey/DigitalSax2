@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42D758DD19D805E2007063C9 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D758DC19D805E2007063C9 /* AudioController.m */; };
 		42FEDFCE19D7FB9C008598B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FEDFCD19D7FB9C008598B1 /* main.m */; };
 		42FEDFD119D7FB9C008598B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FEDFD019D7FB9C008598B1 /* AppDelegate.m */; };
 		42FEDFD419D7FB9C008598B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FEDFD319D7FB9C008598B1 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42D758DB19D805E2007063C9 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		42D758DC19D805E2007063C9 /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
 		42FEDFC819D7FB9C008598B1 /* DigitalSax2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalSax2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FEDFCC19D7FB9C008598B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42FEDFCD19D7FB9C008598B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				42FEDFD519D7FB9C008598B1 /* Main.storyboard */,
 				42FEDFD819D7FB9C008598B1 /* Images.xcassets */,
 				42FEDFDA19D7FB9C008598B1 /* LaunchScreen.xib */,
+				42D758DB19D805E2007063C9 /* AudioController.h */,
+				42D758DC19D805E2007063C9 /* AudioController.m */,
 				42FEDFCB19D7FB9C008598B1 /* Supporting Files */,
 			);
 			path = DigitalSax2;
@@ -221,6 +226,7 @@
 			files = (
 				42FEDFD419D7FB9C008598B1 /* ViewController.m in Sources */,
 				42FEDFD119D7FB9C008598B1 /* AppDelegate.m in Sources */,
+				42D758DD19D805E2007063C9 /* AudioController.m in Sources */,
 				42FEDFCE19D7FB9C008598B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				42FEDFED19D7FB9C008598B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42FEDFEE19D7FB9C008598B1 /* Build configuration list for PBXNativeTarget "DigitalSax2Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				42FEDFF019D7FB9C008598B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
